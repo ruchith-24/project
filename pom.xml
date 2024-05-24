@@ -115,8 +115,13 @@
 </plugin>
 		</plugins>
 	</build>
-
-	
+<repsoitories>
+	<repository>	
+		<id>maven-releases</id>
+		<name>maven-releases</name>
+		<url>http://3.111.37.31:8081/repository/maven-releases/</url>
+	</repository>
+</repsoitories>
 <distributionManagement>
 	<repository>	
 		<id>maven-releases</id>
